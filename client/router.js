@@ -1,4 +1,4 @@
-Router.onBeforeAction(function() {
+                               Router.onBeforeAction(function() {
   if (!Meteor.userId()) {
     this.render('splash');
   } else {
